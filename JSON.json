@@ -1,0 +1,17 @@
+[
+    {
+        "tipo": "Libro",
+        "titulo": "Mentes brillantes",
+        "autor": "Anonimo",
+        "ano_publicacion": 2000,
+        "estado": "Disponible"
+    },
+    {
+        "tipo": "LibroDigital",
+        "titulo": "el hombre imaginario",
+        "autor": "antipoeta",
+        "ano_publicacion": 2005,
+        "estado": "Disponible",
+        "formato": "ePub"
+    }
+]

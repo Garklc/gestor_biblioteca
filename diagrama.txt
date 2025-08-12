@@ -1,0 +1,46 @@
++-------------------+
+|       Libro       |
++-------------------+
+| - titulo          |
+| - autor           |
+| - ano_publicacion |
+| - estado          |
++-------------------+
+| + get_titulo()    |
+| + get_autor()     |
+| + get_ano_publicacion() |
+| + get_estado()    |
+| + set_titulo(...) |
+| + set_autor(...)  |
+| + set_ano_publicacion(...) |
+| + set_estado(...) |
+| + __str__()       |
++-------------------+
+
+         |
+         v
+
++---------------------+
+|   LibroDigital      |
++---------------------+
+| - formato           |
++---------------------+
+| + get_formato()     |
+| + set_formato(...)  |
+| + __str__()         |
++---------------------+
+
++-------------------+
+|     Biblioteca    |
++-------------------+
+| - libros          |
++-------------------+
+| + agregar_libro(...) |
+| + eliminar_libro(...) |
+| + listar_libros_disponibles() |
+| + buscar_libro_por_titulo(...) |
+| + marcar_como_prestado(...) |
+| + devolver_libro(...) |
+| + cargar_libros()    |
+| + guardar_libros()   |
++-------------------+
